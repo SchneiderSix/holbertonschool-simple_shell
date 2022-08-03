@@ -42,7 +42,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is a mandatory project for Holberton School made by Juan Matias Rossi from cohort 18. This project is about recreate or build a command intepreter similar to linux shell. This recreation can only take one command per usage and can't process special characters: ``", ', `, \, *, &, #.``
+This is a mandatory project for Holberton School made by Juan Matias Rossi from cohort 18. This project is about recreate or build a command intepreter similar to linux shell. This recreation can only take one command per usage and can't process special characters: ``", ', `, \, *, &, #``.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
