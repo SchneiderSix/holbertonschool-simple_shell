@@ -16,8 +16,8 @@ int shellLoop(char **argv)
 	while (1)
 	{
 		fflush(stdout);
-		/*if (isatty(STDIN_FILENO))
-			write(1, "$", 1);*/ /*test non interactive*/
+		/*if (isatty(STDIN_FILENO))*/
+			/*write(1, "$", 1); test non interactive*/
 		getLine = readLine(&buffer, &tokens);
 		if (getLine == EOF) /* check for EOF */
 			break;
