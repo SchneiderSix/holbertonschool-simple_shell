@@ -77,7 +77,7 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c nice_header.h
 <p align="middle"><b>You can read the man file just like this</b>
 
 ``` javascript
-man ./man_3_printf
+man ./man_1_simple_shell
 ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
