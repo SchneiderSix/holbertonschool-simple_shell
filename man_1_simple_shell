@@ -1,0 +1,55 @@
+.TH SIMPLE_SHELL 3 "August 2022"
+.SH NAME
+.B Simple_shell
+- simple UNIX command interpreter.
+.SH SYNOPSIS
+.sp
+#include "nice_header.h"
+.SH DESCRIPTION
+Simple_shell is an emulation of UNIX command interpreter.
+.sp
+.B Overview
+.sp
+As an emulation, the simple_shell is a command that reads lines from either a file or the terminal, interprets
+them and executes other commands.
+.sp
+.B Invocation
+.sp
+If no args are present and if the standard input of the shell is connected to a terminal
+the shell is considered an interactive shell.
+.sp
+An interactive shell generally prompts before each command and handles
+programming and command errors differently.
+.sp
+This was done as an exercise for Holberton School
+.SH EXAMPLE
+.sp
+.IP
+-----Non-Interactive Mode-----
+$ echo "qwerty" | ./a.out
+
+.I ./a.out: 1: qwerty: not found
+
+$ echo "qwerty" | ./././a.out
+
+.I ./././a.out: 1: qwerty: not found
+
+-----Interatcive Mode-----
+echo "qwerty" | /bin/sh
+
+.I /bin/sh: 1: qwerty: not found
+
+echo "qwerty" | /bin/../bin/sh
+
+.I /bin/../bin/sh: 1: qwerty: not found
+.sp
+.SH SEE ALSO
+.sp
+For more information check out man sh
+.sp
+.SH
+BUGS
+.sp
+Can't support special characters : ", ', `, \, *, &, #
+.SH AUTHOR
+Juan Matias Rossi
