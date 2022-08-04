@@ -51,7 +51,7 @@ This is a mandatory project for Holberton School made by Juan Matias Rossi from 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This recreation tokenize the input given into strings, checks the permission of the paths/files and executes the command. This requieres at least Ubuntu 14.04 LTS and gcc 4.8.4. 
+Simple shell is a interpreter command-line between kernel and the user mode for it can use the resources of the Operative System. This recreation tokenize the input given into strings, checks the permission of the paths/files and executes the command. This requieres at least Ubuntu 14.04 LTS and gcc 4.8.4. 
 <p align="middle"><b>Clone the repository</b>
 
 ``` javascript
@@ -98,7 +98,7 @@ You can use this recreation in "Non-interactive mode" or "Interactive mode", rem
 <!-- FLOWCHART -->
 ## Flowchart
 
-<img src="images/Flowchart.jpg" alt="flowchart" width="auto" height="auto" align="middle">
+<img src="images/flowchart.png" alt="flowchart" width="auto" height="auto" align="middle">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
