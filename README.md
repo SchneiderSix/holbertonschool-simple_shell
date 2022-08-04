@@ -105,18 +105,22 @@ You can use this recreation in "Non-interactive mode" or "Interactive mode", rem
 <!-- EXAMPLES -->
 ## Examples
 <p align="middle"><b>Interactive mode ls</b>
+
 <img src="images/intls.png" alt="intls" width="auto" height="auto" align="middle">
 
 
 <p align="middle"><b>Interactive mode pwd</b>
+
 <img src="images/intpwd.png" alt="intpwd" width="auto" height="auto" align="middle">
 
 
 <p align="middle"><b>Non-interactive mode ls</b>
+
 <img src="images/nonintls.png" alt="nonintls" width="auto" height="auto" align="middle">
 
 
 <p align="middle"><b>Non-interactive mode pwd</b>
+
 <img src="images/nonintpwd.png" alt="nointpwd" width="auto" height="auto" align="middle">
 
 
